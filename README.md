@@ -53,6 +53,16 @@ Random Forest Classifier
 * Accuracy: 98.54%
 * Disease Prediction Successfully Implemented
 
+## Project Highlights
+
+- Dataset Size: 1025 patient records
+- Features Used: 13
+- Algorithm: Random Forest Classifier
+- Accuracy Achieved: 98.54%
+- Model Saved Using Pickle
+- Confusion Matrix Visualization
+- Feature Importance Analysis
+
 ## Model Performance
 
 - Accuracy: 98.54%
@@ -96,16 +106,6 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 ```bash
 python disease_prediction.py
 ```
-
-## Project Highlights
-
-- Dataset Size: 1025 records
-- Features Used: 13
-- Algorithm: Random Forest Classifier
-- Accuracy Achieved: 98.54%
-- Model Saved Using Pickle
-- Confusion Matrix Visualization
-- Feature Importance Analysis
 
 ## Author
 
