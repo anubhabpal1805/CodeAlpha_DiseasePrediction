@@ -44,6 +44,15 @@ Random Forest Classifier
 * Accuracy: 98.54%
 * Disease Prediction Successfully Implemented
 
+## Model Performance
+
+- Accuracy: 98.54%
+- Precision: 1.00 (Heart Disease)
+- Recall: 0.97 (Heart Disease)
+- F1-Score: 0.99
+
+The model correctly classified 202 out of 205 test samples.
+
 ## Confusion Matrix
 
 ![Confusion Matrix](confusion_matrix.png)
