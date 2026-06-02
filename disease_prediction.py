@@ -1,4 +1,8 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pickle
+
 
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -45,11 +49,35 @@ print(confusion_matrix(y_test, predictions))
 
 print("\nClassification Report:")
 print(classification_report(y_test, predictions))
-import pickle
 
-pickle.dump(
-    model,
-    open("disease_model.pkl", "wb")
-)
+with open("disease_model.pkl", "wb") as file:
+    pickle.dump(model, file)
 
 print("\nModel saved successfully!")
+# Confusion Matrix Graph
+
+cm = confusion_matrix(y_test, predictions)
+
+plt.figure(figsize=(6,4))
+sns.heatmap(cm, annot=True, fmt='d')
+plt.title("Confusion Matrix")
+plt.xlabel("Predicted")
+plt.ylabel("Actual")
+
+plt.savefig("confusion_matrix.png")
+plt.close()
+# Feature Importance Graph
+
+importance = model.feature_importances_
+
+plt.figure(figsize=(10,6))
+plt.barh(X.columns, importance)
+
+plt.title("Feature Importance")
+plt.xlabel("Importance Score")
+plt.ylabel("Features")
+
+plt.tight_layout()
+
+plt.savefig("feature_importance.png")
+plt.close()
