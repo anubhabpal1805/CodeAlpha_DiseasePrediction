@@ -44,6 +44,14 @@ Random Forest Classifier
 * Accuracy: 98.54%
 * Disease Prediction Successfully Implemented
 
+## Confusion Matrix
+
+![Confusion Matrix](confusion_matrix.png)
+
+## Feature Importance
+
+![Feature Importance](feature_importance.png)
+
 ## Technologies Used
 
 * Python
