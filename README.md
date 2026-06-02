@@ -89,6 +89,16 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 python disease_prediction.py
 ```
 
+## Project Highlights
+
+- Dataset Size: 1025 records
+- Features Used: 13
+- Algorithm: Random Forest Classifier
+- Accuracy Achieved: 98.54%
+- Model Saved Using Pickle
+- Confusion Matrix Visualization
+- Feature Importance Analysis
+
 ## Author
 
 Anubhab Pal
