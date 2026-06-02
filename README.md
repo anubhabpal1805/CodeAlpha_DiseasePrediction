@@ -1,4 +1,12 @@
-# Disease Prediction Using Machine Learning
+# Heart Disease Prediction Using Machine Learning
+
+Machine Learning project that predicts heart disease using patient medical data and a Random Forest Classifier.
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
+![Accuracy](https://img.shields.io/badge/Accuracy-98.54%25-success)
+
+---
 
 ## Overview
 
