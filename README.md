@@ -9,6 +9,7 @@ This project predicts the likelihood of heart disease using patient medical data
 * Heart Disease Dataset
 * 1025 patient records
 * 13 medical features
+* Dataset Source: UCI Heart Disease Dataset
 
 ## Features Used
 
@@ -67,6 +68,26 @@ The model correctly classified 202 out of 205 test samples.
 * Pandas
 * NumPy
 * Scikit-learn
+
+## Future Improvements
+
+- Deploy using Streamlit
+- Build a web-based prediction interface
+- Compare multiple machine learning algorithms
+- Add real-time patient input
+- Improve model generalization with larger datasets
+
+## Installation
+
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn
+```
+
+## Run the Project
+
+```bash
+python disease_prediction.py
+```
 
 ## Author
 
